@@ -1,0 +1,19 @@
+# Datensätze (Kursmaterial, zu groß)
+train.json
+validation.json
+test.json
+leadsheet_ids.json
+variation_ids.json
+train/
+
+# Laufzeit-Ausgaben der Notebooks (archivierte Versionen liegen in results/)
+/training_log.txt
+/best_model.pt
+/generated_tune.wav
+
+# Jupyter / W&B / Python
+.ipynb_checkpoints/
+wandb/
+__pycache__/
+*.pyc
+.env
